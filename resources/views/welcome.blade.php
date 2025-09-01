@@ -273,9 +273,5 @@
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
         @endif
-
-
-
-        <h1>welcom</h1>
     </body>
 </html>
