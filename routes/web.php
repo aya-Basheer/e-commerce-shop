@@ -6,6 +6,8 @@
 //     return view('welcome');
 // });
 // routes/web.php
+
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ShopController;
 use App\Http\Controllers\ProductController;
 // Route::get('/', [ShopController::class, 'index']);
@@ -25,6 +27,8 @@ Route::delete('/products/{id}', [ProductController::class, 'destroy'])->name('pr
 // Route::get('/products/{id}', [ProductController::class, 'show']);
 
 
+
+Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
 
 
 
