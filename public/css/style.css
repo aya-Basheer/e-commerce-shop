@@ -174,11 +174,24 @@ a {
     -webkit-box-shadow: none;
     box-shadow: none; }
   .btn.btn-primary {
+        width: 160px;
     background: #3b5d50;
     border-color: #3b5d50; }
     .btn.btn-primary:hover {
       background: #314d43;
       border-color: #314d43; }
+      .btn.btn-danger{
+        margin-left: 100px;
+           margin-top: 10px;
+            width: 120px;
+            background-color: #954444;
+      }
+      .btn.btn-warning{
+            width: 120px;
+    background: #3b5d50;
+    border-color: #3b5d50;
+      }
+
   .btn.btn-secondary {
     color: #2f2f2f;
     background: #f9bf29;
