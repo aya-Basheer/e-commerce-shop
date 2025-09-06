@@ -1,10 +1,16 @@
-footer class="footer-section">
+<footer class="footer-section">
+
+
+		
 <li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
 <li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
 </ul>
 </div>
 
-
+				<!-- <div class="sofa-img"> -->
+		   <span class="icon-cross">
+            <img src="{{ asset('images/sofa.png') }}" class="img-fluid absolute " alt="Add">
+          </span>
 <div class="col-lg-8">
 <div class="row links-wrap">
 <div class="col-6 col-sm-6 col-md-3">
