@@ -13,6 +13,7 @@
 <li class="nav-item active">
 <a class="nav-link" href="{{ url('/') }}">Home</a>
 </li>
+<li><a class="nav-link" href="{{ url('/products') }}">products</a></li>
 <li><a class="nav-link" href="{{ url('/shop') }}">Shop</a></li>
 <li><a class="nav-link" href="{{ url('/about') }}">About us</a></li>
 <li><a class="nav-link" href="{{ url('/services') }}">Services</a></li>
