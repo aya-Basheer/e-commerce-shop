@@ -39,3 +39,11 @@ Route::get('/cart', [ShopController::class, 'cart'])->name('cart');
 Route::get('/about', [ShopController::class, 'about'])->name('about');
 Route::get('/contact', [ShopController::class, 'contact'])->name('contact');
 Route::get('/blog', [ShopController::class, 'blog'])->name('blog');
+use App\Http\Controllers\AdminController;
+
+Route::middleware(['auth','can:access-admin-panel'])->prefix('admin')->group(function () {
+    Route::get('/', [AdminController::class, 'dashboard'])->name('admin.dashboard');
+    Route::get('/products', [AdminController::class, 'products'])->name('admin.products');
+    Route::get('/categories', [AdminController::class, 'categories'])->name('admin.categories');
+    // لاحقًا: routes لإضافة/تعديل/حذف المنتجات (محمية بنفس الـ middleware)
+});
