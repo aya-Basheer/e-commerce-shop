@@ -4,6 +4,9 @@
             {{ __('Profile') }}
         </h2>
     </x-slot>
+<x-app-layout>
+    <h1>مرحبا بالعالم!</h1>
+</x-app-layout>
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 space-y-6">

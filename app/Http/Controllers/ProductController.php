@@ -133,4 +133,8 @@ public function destroy($id)
     public function shop() {
         return view('shop');
     }
+    public function dashboard()
+    {
+        return view('admin.dashboard');
+    }
 }
