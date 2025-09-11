@@ -33,5 +33,8 @@ class ShopController extends Controller
     public function shop() {
         return view('shop');
     }
-
+ public function dashboard()
+    {
+        return view('dashboard');
+    }
 }
